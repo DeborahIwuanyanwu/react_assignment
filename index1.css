@@ -50,7 +50,8 @@ body {
 }
 .herosection {
   width: 100%;
-  height: 100vh;
+  height: 550px;
+  margin-top: 21px;
   /* background-color: red; */
   display: flex;
   align-items: center;
@@ -59,6 +60,7 @@ body {
 .heroholder {
   width: 85%;
   height: 100%;
+  /* background-color: gold; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,7 +135,6 @@ body {
 .heroright {
   width: 52%;
   height: 100%;
-  /* background-color: cornflowerblue; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,7 +142,7 @@ body {
 .herorightimg {
   width: 100%;
   height: 100%;
-  padding-left: 30px;
+  margin-left: 30px;
   /* background-color: aquamarine; */
   display: flex;
   align-items: flex-end;
@@ -157,7 +158,6 @@ body {
   }
   .herosection {
     width: 100%;
-    background-color: gold;
     height: auto;
   }
   .heroholder {
@@ -190,17 +190,25 @@ body {
   }
   .heroright {
     width: 100%;
+    height: 100%;
     background-color: gold;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .herorightimg img {
-    width: 20%;
-    height: 150px;
-    padding: 0;
-    margin: 0;
-  }
+ .herorightimg{
+  width: 100%;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .herorightimg img{
+  width: 250px;
+  height: 30px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+ }
 }
 @media (max-width: 600px) {
   .navholder {
