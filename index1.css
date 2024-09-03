@@ -113,7 +113,7 @@ body {
   font-weight: bold;
 }
 .HeroGetStartedButton {
-  width: 160px;
+  width: 130px;
   margin-right: 10px;
   display: flex;
   justify-content: flex-end;
@@ -158,6 +158,7 @@ body {
   }
   .herosection {
     width: 100%;
+    background-color: gold;
     height: auto;
   }
   .heroholder {
@@ -167,6 +168,9 @@ body {
     flex-direction: column;
   }
   .heroleft {
+    width: 100%;
+  }
+  .herobigtext{
     width: 100%;
   }
   .herobigtext h3 {
@@ -187,13 +191,14 @@ body {
   }
   .heroright {
     width: 100%;
+    background-color: gold;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .herorightimg img {
-    width: 420px;
-    height: 200px;
+    width: 20%;
+    height: 150px;
     padding: 0;
     margin: 0;
   }
@@ -214,6 +219,9 @@ body {
   }
   .heroleft {
     width: 92%;
+  }
+  .herobigtext{
+    width: 100%;
   }
   .herobigtext h3 {
     font-size: 35px;
@@ -250,12 +258,18 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .HeroGetStartedButton{
+    width: 100%;
+  }
   .heroleft {
     width: 100%;
     margin-top: 25px;
   }
+  .herobigtext{
+    width: 70%;
+  }
   .herosmalltext {
-    width: 480px;
+    width: 100%;
   }
   .herosmalltext p {
     font-size: 17px;
